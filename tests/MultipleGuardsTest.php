@@ -1,8 +1,8 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
-use Maklad\Permission\Models\Permission;
+use Ruff0\Permission\Models\Permission;
 
 class MultipleGuardsTest extends TestCase
 {

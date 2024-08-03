@@ -1,9 +1,9 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Artisan;
-use Maklad\Permission\Models\Role;
+use Ruff0\Permission\Models\Role;
 
 class BladeTest extends TestCase
 {

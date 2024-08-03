@@ -1,14 +1,14 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
-use Maklad\Permission\PermissionRegistrar;
-use Maklad\Permission\PermissionServiceProvider;
+use Ruff0\Permission\Helpers;
+use Ruff0\Permission\Models\Permission;
+use Ruff0\Permission\Models\Role;
+use Ruff0\Permission\PermissionRegistrar;
+use Ruff0\Permission\PermissionServiceProvider;
 use MongoDB\Laravel\MongoDBServiceProvider;
 use Monolog\Handler\TestHandler;
 use Orchestra\Testbench\TestCase as Orchestra;

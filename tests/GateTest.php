@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Contracts\Auth\Access\Gate;
 

@@ -1,17 +1,17 @@
 <?php
 
-namespace Maklad\Permission;
+namespace Ruff0\Permission;
 
 use Illuminate\Contracts\Auth\Access\Authorizable;
 use Illuminate\Contracts\Auth\Access\Gate;
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Collection;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
+use Ruff0\Permission\Contracts\PermissionInterface as Permission;
 
 /**
  * Class PermissionRegistrar
- * @package Maklad\Permission
+ * @package Ruff0\Permission
  */
 class PermissionRegistrar
 {
@@ -19,7 +19,7 @@ class PermissionRegistrar
 
     protected Repository $cache;
 
-    protected string $cacheKey = 'maklad.permission.cache';
+    protected string $cacheKey = 'ruff0.permission.cache';
 
     protected string $permissionClass;
 

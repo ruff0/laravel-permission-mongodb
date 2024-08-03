@@ -1,17 +1,17 @@
 <?php
 
-namespace Maklad\Permission\Models;
+namespace Ruff0\Permission\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Contracts\RoleInterface;
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Exceptions\RoleAlreadyExists;
-use Maklad\Permission\Exceptions\RoleDoesNotExist;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\Traits\HasPermissions;
-use Maklad\Permission\Traits\RefreshesPermissionCache;
+use Ruff0\Permission\Contracts\PermissionInterface;
+use Ruff0\Permission\Contracts\RoleInterface;
+use Ruff0\Permission\Exceptions\GuardDoesNotMatch;
+use Ruff0\Permission\Exceptions\RoleAlreadyExists;
+use Ruff0\Permission\Exceptions\RoleDoesNotExist;
+use Ruff0\Permission\Guard;
+use Ruff0\Permission\Helpers;
+use Ruff0\Permission\Traits\HasPermissions;
+use Ruff0\Permission\Traits\RefreshesPermissionCache;
 use MongoDB\Laravel\Eloquent\Model;
 use ReflectionException;
 use function is_string;
@@ -19,7 +19,7 @@ use function is_string;
 /**
  * Class Role
  * @property string $_id
- * @package Maklad\Permission\Models
+ * @package Ruff0\Permission\Models
  */
 class Role extends Model implements RoleInterface
 {

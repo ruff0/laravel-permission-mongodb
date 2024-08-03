@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Support\Facades\DB;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
-use Maklad\Permission\PermissionRegistrar;
+use Ruff0\Permission\Models\Permission;
+use Ruff0\Permission\Models\Role;
+use Ruff0\Permission\PermissionRegistrar;
 
 class CacheTest extends TestCase
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace Ruff0\Permission\Traits;
 
 use Illuminate\Support\Collection;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
+use Ruff0\Permission\Contracts\PermissionInterface;
+use Ruff0\Permission\Contracts\PermissionInterface as Permission;
+use Ruff0\Permission\Exceptions\GuardDoesNotMatch;
+use Ruff0\Permission\Guard;
+use Ruff0\Permission\Helpers;
+use Ruff0\Permission\PermissionRegistrar;
 use MongoDB\Laravel\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\Builder;
 use ReflectionException;
@@ -18,7 +18,7 @@ use function is_string;
 
 /**
  * Trait HasPermissions
- * @package Maklad\Permission\Traits
+ * @package Ruff0\Permission\Traits
  */
 trait HasPermissions
 {

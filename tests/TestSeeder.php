@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Foundation\Application;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
+use Ruff0\Permission\Models\Permission;
+use Ruff0\Permission\Models\Role;
 
 class TestSeeder extends Seeder
 {

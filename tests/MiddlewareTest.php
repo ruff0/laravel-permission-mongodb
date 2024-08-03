@@ -1,13 +1,13 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
-use Maklad\Permission\Exceptions\UnauthorizedException;
-use Maklad\Permission\Middlewares\PermissionMiddleware;
-use Maklad\Permission\Middlewares\RoleMiddleware;
+use Ruff0\Permission\Exceptions\UnauthorizedException;
+use Ruff0\Permission\Middlewares\PermissionMiddleware;
+use Ruff0\Permission\Middlewares\RoleMiddleware;
 use Monolog\Level;
 use Monolog\Logger;
 

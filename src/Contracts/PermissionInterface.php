@@ -1,12 +1,12 @@
 <?php
 
-namespace Maklad\Permission\Contracts;
+namespace Ruff0\Permission\Contracts;
 
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
+use Ruff0\Permission\Exceptions\PermissionDoesNotExist;
 
 /**
  * Interface PermissionInterface
- * @package Maklad\Permission\Contracts
+ * @package Ruff0\Permission\Contracts
  */
 interface PermissionInterface
 {

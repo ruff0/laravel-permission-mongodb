@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Exceptions;
+namespace Ruff0\Permission\Exceptions;
 
 use InvalidArgumentException;
 use Throwable;
@@ -8,13 +8,13 @@ use function app;
 use function config;
 
 /**
- * Class MakladException
- * @package Maklad\Permission\Exceptions
+ * Class Ruff0Exception
+ * @package Ruff0\Permission\Exceptions
  */
-class MakladException extends InvalidArgumentException
+class Ruff0Exception extends InvalidArgumentException
 {
     /**
-     * MakladException constructor.
+     * Ruff0Exception constructor.
      *
      * @param string|null $message
      * @param int $code

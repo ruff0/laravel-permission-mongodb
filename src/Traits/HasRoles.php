@@ -1,11 +1,11 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace Ruff0\Permission\Traits;
 
 use Illuminate\Support\Collection;
-use Maklad\Permission\Contracts\RoleInterface as Role;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
+use Ruff0\Permission\Contracts\RoleInterface as Role;
+use Ruff0\Permission\Helpers;
+use Ruff0\Permission\PermissionRegistrar;
 use MongoDB\Laravel\Eloquent\Model;
 use MongoDB\Laravel\Eloquent\Builder;
 use MongoDB\Laravel\Relations\BelongsToMany;
@@ -14,7 +14,7 @@ use function collect;
 
 /**
  * Trait HasRoles
- * @package Maklad\Permission\Traits
+ * @package Ruff0\Permission\Traits
  */
 trait HasRoles
 {

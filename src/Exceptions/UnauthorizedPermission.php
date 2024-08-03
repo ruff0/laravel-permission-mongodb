@@ -1,10 +1,10 @@
 <?php
 
-namespace Maklad\Permission\Exceptions;
+namespace Ruff0\Permission\Exceptions;
 
 /**
  * Class UnauthorizedPermission
- * @package Maklad\Permission\Exceptions
+ * @package Ruff0\Permission\Exceptions
  */
 class UnauthorizedPermission extends UnauthorizedException
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Maklad\Permission\Models;
+namespace Ruff0\Permission\Models;
 
 use Illuminate\Support\Collection;
-use Maklad\Permission\Contracts\PermissionInterface;
-use Maklad\Permission\Exceptions\PermissionAlreadyExists;
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
-use Maklad\Permission\Guard;
-use Maklad\Permission\Helpers;
-use Maklad\Permission\PermissionRegistrar;
-use Maklad\Permission\Traits\HasRoles;
-use Maklad\Permission\Traits\RefreshesPermissionCache;
+use Ruff0\Permission\Contracts\PermissionInterface;
+use Ruff0\Permission\Exceptions\PermissionAlreadyExists;
+use Ruff0\Permission\Exceptions\PermissionDoesNotExist;
+use Ruff0\Permission\Guard;
+use Ruff0\Permission\Helpers;
+use Ruff0\Permission\PermissionRegistrar;
+use Ruff0\Permission\Traits\HasRoles;
+use Ruff0\Permission\Traits\RefreshesPermissionCache;
 use MongoDB\Laravel\Eloquent\Model;
 use ReflectionException;
 use function app;
@@ -18,7 +18,7 @@ use function app;
 /**
  * Class Permission
  * @property string $_id
- * @package Maklad\Permission\Models
+ * @package Ruff0\Permission\Models
  */
 class Permission extends Model implements PermissionInterface
 {

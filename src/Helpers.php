@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission;
+namespace Ruff0\Permission;
 
 use Illuminate\Support\Collection;
 use function collect;
@@ -8,7 +8,7 @@ use function config;
 
 /**
  * Class Helpers
- * @package Maklad\Permission
+ * @package Ruff0\Permission
  */
 class Helpers
 {

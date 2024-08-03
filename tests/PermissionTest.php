@@ -1,9 +1,9 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
-use Maklad\Permission\Exceptions\PermissionAlreadyExists;
-use Maklad\Permission\Models\Permission;
+use Ruff0\Permission\Exceptions\PermissionAlreadyExists;
+use Ruff0\Permission\Models\Permission;
 use Monolog\Level;
 use Monolog\Logger;
 

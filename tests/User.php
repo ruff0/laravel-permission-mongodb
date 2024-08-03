@@ -1,17 +1,17 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Foundation\Auth\Access\Authorizable;
-use Maklad\Permission\Traits\HasRoles;
+use Ruff0\Permission\Traits\HasRoles;
 use MongoDB\Laravel\Eloquent\Model;
 
 /**
  * Class User
- * @package Maklad\Permission\Test
+ * @package Ruff0\Permission\Test
  */
 class User extends Model implements AuthorizableContract, AuthenticatableContract
 {

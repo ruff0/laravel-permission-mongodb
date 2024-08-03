@@ -1,12 +1,12 @@
 <?php
 
-namespace Maklad\Permission\Test;
+namespace Ruff0\Permission\Test;
 
-use Maklad\Permission\Exceptions\GuardDoesNotMatch;
-use Maklad\Permission\Exceptions\PermissionDoesNotExist;
-use Maklad\Permission\Exceptions\RoleAlreadyExists;
-use Maklad\Permission\Models\Permission;
-use Maklad\Permission\Models\Role;
+use Ruff0\Permission\Exceptions\GuardDoesNotMatch;
+use Ruff0\Permission\Exceptions\PermissionDoesNotExist;
+use Ruff0\Permission\Exceptions\RoleAlreadyExists;
+use Ruff0\Permission\Models\Permission;
+use Ruff0\Permission\Models\Role;
 use Monolog\Level;
 use Monolog\Logger;
 

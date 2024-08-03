@@ -1,17 +1,17 @@
 <?php
 
-namespace Maklad\Permission;
+namespace Ruff0\Permission;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\View\Compilers\BladeCompiler;
-use Maklad\Permission\Contracts\PermissionInterface as Permission;
-use Maklad\Permission\Contracts\RoleInterface as Role;
-use Maklad\Permission\Directives\PermissionDirectives;
+use Ruff0\Permission\Contracts\PermissionInterface as Permission;
+use Ruff0\Permission\Contracts\RoleInterface as Role;
+use Ruff0\Permission\Directives\PermissionDirectives;
 
 /**
  * Class PermissionServiceProvider
- * @package Maklad\Permission
+ * @package Ruff0\Permission
  */
 class PermissionServiceProvider extends ServiceProvider
 {

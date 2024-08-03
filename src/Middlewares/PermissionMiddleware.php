@@ -1,18 +1,18 @@
 <?php
 
-namespace Maklad\Permission\Middlewares;
+namespace Ruff0\Permission\Middlewares;
 
 use Closure;
-use Maklad\Permission\Exceptions\UnauthorizedException;
-use Maklad\Permission\Exceptions\UnauthorizedPermission;
-use Maklad\Permission\Exceptions\UserNotLoggedIn;
-use Maklad\Permission\Helpers;
+use Ruff0\Permission\Exceptions\UnauthorizedException;
+use Ruff0\Permission\Exceptions\UnauthorizedPermission;
+use Ruff0\Permission\Exceptions\UserNotLoggedIn;
+use Ruff0\Permission\Helpers;
 use function explode;
 use function is_array;
 
 /**
  * Class PermissionMiddleware
- * @package Maklad\Permission\Middlewares
+ * @package Ruff0\Permission\Middlewares
  */
 class PermissionMiddleware
 {

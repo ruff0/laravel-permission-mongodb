@@ -1,13 +1,13 @@
 <?php
 
-namespace Maklad\Permission\Traits;
+namespace Ruff0\Permission\Traits;
 
 use function app;
 use function config;
 
 /**
  * Trait RefreshesPermissionCache
- * @package Maklad\Permission\Traits
+ * @package Ruff0\Permission\Traits
  */
 trait RefreshesPermissionCache
 {

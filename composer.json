@@ -1,6 +1,6 @@
 {
-    "name": "mostafamaklad/laravel-permission-mongodb",
-    "description": "Permission handling for Laravel 5.2 and up using mongodb",
+    "name": "ruff0/laravel-permission-mongodb",
+    "description": "Permission handling for Laravel 10 and up using mongodb",
     "version": "dev-master",
     "keywords": [
         "laravel",
@@ -8,25 +8,22 @@
         "mongodb",
         "permission",
         "acl",
-        "mostafamaklad",
-        "maklad",
-        "mostafa",
-        "spatie",
-        "jenssegers"
+        "ruff0",
+        "spatie"
     ],
-    "homepage": "https://github.com/mostafamaklad/laravel-permission-mongodb",
+    "homepage": "https://github.com/ruff0/laravel-permission-mongodb",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mostafa Maklad",
-            "email": "dev.mostafa.maklad@gmail.com",
-            "homepage": "https://github.com/mostafamaklad",
+            "name": "ruff0",
+            "email": "ruff0@400tres.com",
+            "homepage": "https://github.com/ruff0",
             "role": "Developer"
         },
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+          "name": "Mostafa Maklad",
+          "email": "dev.mostafa.maklad@gmail.com",
+          "homepage": "https://github.com/mostafamaklad",
             "role": "The original module"
         }
     ],
@@ -45,12 +42,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Maklad\\Permission\\": "src"
+            "Ruff0\\Permission\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Maklad\\Permission\\Test\\": "tests"
+            "Ruff0\\Permission\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -64,7 +61,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Maklad\\Permission\\PermissionServiceProvider"
+                "Ruff0\\Permission\\PermissionServiceProvider"
             ]
         }
     }

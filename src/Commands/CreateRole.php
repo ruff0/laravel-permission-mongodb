@@ -1,6 +1,6 @@
 <?php
 
-namespace Maklad\Permission\Commands;
+namespace Ruff0\Permission\Commands;
 
 use Illuminate\Console\Command;
 use function app;
@@ -8,7 +8,7 @@ use function config;
 
 /**
  * Class CreateRole
- * @package Maklad\Permission\Commands
+ * @package Ruff0\Permission\Commands
  */
 class CreateRole extends Command
 {
